@@ -9,6 +9,16 @@ cask "openkey" do
 
   app "OpenKey.app"
 
+  caveat <<~EOS
+    This is an ad-hoc signed build. To avoid the Gatekeeper "damaged"
+    warning, install with --no-quarantine:
+
+      brew install --cask --no-quarantine himkit/tap/openkey
+
+    After installing, grant Accessibility permission once:
+      System Settings → Privacy & Security → Accessibility → enable OpenKey.
+  EOS
+
   zap trash: [
     "~/Library/Preferences/com.tuyenmai.openkey.plist",
   ]
