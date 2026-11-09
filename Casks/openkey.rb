@@ -7,7 +7,6 @@ cask "openkey" do
   desc "Vietnamese input method for macOS (event-tap-recovery build)"
   homepage "https://github.com/himkit/OpenKey"
 
-  depends_on macos: ">= :catalina"
   app "OpenKey.app"
 
   zap trash: [
