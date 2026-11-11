@@ -1,7 +1,20 @@
 # himkit/homebrew-tap
 
-Homebrew tap for [OpenKey](https://github.com/himkit/openkey-macos) — a Vietnamese
-input method for macOS, built from a fork with the event-tap-recovery fix.
+Homebrew tap for [OpenKey for macOS](https://github.com/himkit/openkey-macos), a
+macOS-only fork of [OpenKey](https://github.com/tuyenvm/OpenKey) (Vietnamese
+input method by Mai Vũ Tuyên, GPL-3.0). Source code and release notes:
+[himkit/openkey-macos releases](https://github.com/himkit/openkey-macos/releases).
+
+The fork fixes:
+
+- typing that stops working after macOS disables the event tap;
+- garbled typing in terminals and TUIs (stray `D` characters, text inserted
+  mid-word);
+- "Run on startup" on macOS 13+.
+
+Builds are universal (Intel + Apple Silicon) and ad-hoc signed.
+
+Check the current version with `brew info --cask himkit/tap/openkey`.
 
 ## Install
 
