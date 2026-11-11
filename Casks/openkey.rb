@@ -1,10 +1,10 @@
 cask "openkey" do
-  version "2.0.6"
-  sha256 "31f2286eb1372eac368056ae559712bcda05dcdf36c2c3261a259b7dd5be6be9"
+  version "2.0.7"
+  sha256 "d64b1f05731b35569807b08aff553f84f3df2a316d6a4a2cdee8a460ce099dde"
 
-  url "https://github.com/himkit/OpenKey/releases/download/v2.0.6/OpenKey-2.0.6.zip"
+  url "https://github.com/himkit/OpenKey/releases/download/v#{version}/OpenKey-#{version}.zip"
   name "OpenKey"
-  desc "Vietnamese input method for macOS (event-tap-recovery build)"
+  desc "Vietnamese input method (fork with event-tap and terminal fixes)"
   homepage "https://github.com/himkit/OpenKey"
 
   app "OpenKey.app"
