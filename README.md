@@ -1,6 +1,6 @@
 # himkit/homebrew-tap
 
-Homebrew tap for [OpenKey](https://github.com/himkit/OpenKey) — a Vietnamese
+Homebrew tap for [OpenKey](https://github.com/himkit/openkey-macos) — a Vietnamese
 input method for macOS, built from a fork with the event-tap-recovery fix.
 
 ## Install
